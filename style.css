@@ -1,0 +1,60 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+select, button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+select {
+  width: 100%;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.controls button {
+  margin: 0 5px;
+}
+
+#queueDisplay {
+  background-color: #6b7a5c; /* Darker sage green */
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+#queueList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#queueList li {
+  margin-bottom: 5px;
+}
